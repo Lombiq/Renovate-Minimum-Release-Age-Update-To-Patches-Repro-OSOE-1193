@@ -11,7 +11,7 @@
             "minimumReleaseAge": '0 days',
         },
     ],
-    separateMajorMinor: true,
+    separateMajorMinor: false,
     // Just to be able to test quickly.
     schedule: [
         '* * * * *',
