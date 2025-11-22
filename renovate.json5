@@ -3,12 +3,12 @@
     description: 'Default Lombiq Renovate configuration.',
     packageRules: [
         {
-            "matchUpdateTypes": ['major', 'minor'],
-            "minimumReleaseAge": '3 days',
+            matchUpdateTypes: ['major', 'minor'],
+            minimumReleaseAge: '3 days',
         },
         {
-            "matchUpdateTypes": ['patch'],
-            "minimumReleaseAge": '0 days',
+            matchUpdateTypes: ['patch'],
+            minimumReleaseAge: '0 days',
         },
     ],
     separateMajorMinor: false,
